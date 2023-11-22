@@ -141,8 +141,6 @@ func main() {
 	}
 
 	endTime := time.Now()
-
-	// Calcola e stampa la durata dell'esecuzione
 	executionTime := endTime.Sub(startTime)
 	fmt.Printf("Il codice è stato eseguito in %s\n", executionTime)
 }
